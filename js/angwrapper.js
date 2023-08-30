@@ -9,10 +9,10 @@ function init()
     //Add angular root element
     div.innerHTML += '<app-root></app-root>'; 
 
-    var packageName = !!!!![replace with package name]!!!!!; //for example 1.ResourceCalendarExternalPackages
-    var serverName = !!!!![replace with server name]!!!!!; //for example https://h2909571.stratoserver.net/
+    var packageName = '0.-ExternalSourceTemplateAngular/'; 
+    var serverName =  'https://h2909571.stratoserver.net/';
 
-    var baseUrl = 'HellebrekerPackages/' + packageName + '/';
+    var baseUrl = serverName + 'HellebrekerPackages/' + packageName;
 
     //Load angular scripts
     var runtimeUrl   = baseUrl + 'js/runtime.js';
